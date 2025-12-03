@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Ordenes.Backend/Ordenes.Backend.csproj" />
+  <Project Path="Ordenes.Frontend/Ordenes.Frontend.csproj" />
+  <Project Path="Ordenes.Shared/Ordenes.Shared.csproj" />
+  <Project Path="Ordenes.Test/Ordenes.Test.csproj" />
+</Solution>
