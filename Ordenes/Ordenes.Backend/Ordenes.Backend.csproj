@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Ordenes.Frontend\Ordenes.Frontend.csproj" />
     <ProjectReference Include="..\Ordenes.Shared\Ordenes.Shared.csproj" />
   </ItemGroup>
 

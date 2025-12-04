@@ -17,5 +17,10 @@ namespace Ordenes.Backend.Data
             modelBuilder.Entity<Country>().HasIndex(x => x.Name).IsUnique();
 
         }
+
+        internal void Add(object country)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
