@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Countries\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Ordenes.Shared\Ordenes.Shared.csproj" />
   </ItemGroup>
 
