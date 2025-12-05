@@ -5,6 +5,7 @@ using Ordenes.Backend.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer("name=LocalConnection"));
 
@@ -18,6 +19,11 @@ app.UseCors(x => x
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    //app.UseSwaggerUI();
+    /*app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/openapi/v3.json", "v1");
+    });*/
 }
 
 app.UseHttpsRedirection();
