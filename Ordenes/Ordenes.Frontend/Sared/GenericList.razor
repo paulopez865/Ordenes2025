@@ -1,13 +1,10 @@
 ﻿@typeparam Titem
-<h3>GenericList</h3>
 
 @if(MyList is null)
 {
     @if(Loading is null)
     {
-        <div class="d-flex justify-content-center align-items-center">
-            <img src="https://cdn.pixabay.com/animation/2023/08/11/21/18/21-18-05-265_512.gif" />
-        </div>
+        <Loading/>
     }
     else
     {
